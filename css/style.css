@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*NavBar*/
+#navbar{
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    justify-content: center;
+}
+#navbar .navbar-container{ /*Add o id junto da class deixa o code mais legivel*/
+    width: 60%;
+	display: flex;
+	align-items: center; /* centraliza verticalmente*/
+	justify-content: space-between;/*espaçamento entre eles*/
+	padding: 20px 0;
+}
+#navbar .navbar-container .logo{
+    height: 40px;
+    width: auto;
+}
+#navbar .navbar-container  ul{
+    display: flex; /* deixa orizontal*/
+    list-style: none; /*tira a marcação das bolinhas*/
+}
+#navbar .navbar-container ul li{
+    padding: 0 10px;
+}
+
+git remote add origin https://github.com/usuario/rails-girls.git
