@@ -6,12 +6,30 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* Utility Classes */
+.btn-primary{
+    background: #1ed760;
+    color:blue;
+    text-transform: uppercase;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family:  sans-serif;
+    font-weight: bold;/*espaço entre as letras*/
+}
+
 /*NavBar*/
 #navbar{
     display: flex;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
     color: white;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
 }
 #navbar .navbar-container{ /*Add o id junto da class deixa o code mais legivel*/
     width: 60%;
@@ -29,10 +47,42 @@ body{
     list-style: none; /*tira a marcação das bolinhas*/
 }
 #navbar .navbar-container ul li{
-    padding: 0 10px;
+    padding: 0 20px;
+}
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white; /* criação da barra de separação*/
 }
 
-bodey{
+/*showcase*/
+#showcase{
+    height: 100vh; /*ocupa 100% da visão do usuario*/
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("/img/icom.png") center center/cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+}
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;/* elementos vão ser organizados em colunas */
+    align-items: center;
+}
+
+#showcase .showcase-container h2{
+    font-size: 10rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1ed760 ;
+    justify-content: space-between;
+}
+
+#showcase .showcase-container p{
+    margin-top: 15px 0; /*0 dos lados */
+    font-size: 1.5rem;
+    color: #1ed760 ;
+    justify-content: space-between;
 }
 
