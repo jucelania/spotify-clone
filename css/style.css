@@ -81,7 +81,7 @@ body{
     justify-content: center;
     align-items: center;
     color: var(--light-white);
-    background: url("/img/icom.png") center center/cover;
+    background: url('/img/icom.png') center center/cover;
     background-color: rgba(0,0,0,0.4);
     background-blend-mode: color;
 }
