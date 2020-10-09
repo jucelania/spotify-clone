@@ -2,6 +2,12 @@
 
 ## Clone doo spotify
 
+#### Visão geral do projeto! 
+
+<p align="center">
+<img src="./github/spotify.png" width="100%" heigth="100%" align="center">
+</p>
+
 Spotify é uma plataforma de músicas, onde você pode ouvir offiline e online.
 
 <hr>
@@ -16,5 +22,3 @@ Tecnlogias utilizadas:
 - CSS;
 - JavaScript;
 
-
-<h3> Projeto em construção </h3>
