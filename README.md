@@ -9,7 +9,6 @@
 </p>
 
 Spotify é uma plataforma de músicas, onde você pode ouvir offiline e online.
-
 <hr>
 
 ### Finalidade do projeto:
