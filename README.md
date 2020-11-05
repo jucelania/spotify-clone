@@ -1,4 +1,4 @@
-<img src="./github/spotify-logo.png" width="100px" hidth="50px">
+<img src="./github/spotify-logo.png" width="90px" hidth="50px">
 
 ## Clone doo spotify
 
