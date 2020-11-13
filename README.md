@@ -1,6 +1,8 @@
 <img src="./github/spotify-logo.png" width="90px" hidth="50px">
 
-## Clone doo spotify
+<h2 align="center">
+  Clone doo spotify
+  </h2>
 
 #### Visão geral do projeto! 
 
