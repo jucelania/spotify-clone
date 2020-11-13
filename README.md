@@ -8,7 +8,7 @@
  </h3>
 
 <p align="center">
-<img src="./github/spotify.png" width="100%" heigth="100%" align="center">
+<img src="./github/spotify.png" width="70%" heigth="70%" align="center">
 </p>
 
 Spotify é uma plataforma de músicas, onde você pode ouvir offiline e online.
